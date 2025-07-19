@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    padding: 16px;
+    width: 100%;
+    color: white;
+    background-color: #1F2937;
+    font:Roboto, sans-serif;
+}
+    
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 10px;
+    margin-right: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-logo{
+    font-weight: 900;
+    margin-left: 80px;
+}
+
+.blue-part{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background:#1F2937 ;
+    padding-top: 70px;
+    justify-content: space-around;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 80px;
+    padding: 16px;
+    margin-right: 20px;
+}
+
+.bold{
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.subtext{
+    color: white;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.signup-button{
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    padding: 5px;
+}
+
+
+.right img{
+    flex:1;
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.heading{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   font-size: 36px;
+    font-weight: 900; 
+}
+
+.blocks img{
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 15px;
+    color: rgb(156, 165, 192);
+    font-size: 14px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.block1,.block2,.block3,.block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 90px;
+    background-color: rgb(216, 216, 237);
+    color: rgb(97, 96, 106);
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 90px;
+    background-color: rgb(255, 255, 255);
+}
+
+.blue-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: rgb(60, 101, 159);
+    color: white;
+    border-radius: 12px;
+}
+
+.text{
+    font: 15px 'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+
+.button{
+    display: flex;
+    border: white 1px solid;
+    border-radius: 15%;
+    padding: 4px 8px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}
